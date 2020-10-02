@@ -1,0 +1,267 @@
+#gdlogo{
+margin:-3%;	
+}
+#head-but1{
+	background-color:white;
+	border:2px solid white;	
+}
+#head-but1:hover{
+	background-color:black;
+	border:2px solid black;
+	color:white;	
+}
+#head-but2{
+	background-color:white;
+	border:2px solid white;	
+}
+#head-but2:hover{
+	background-color:black;
+	border:2px solid black;
+	color:white;	
+}
+#heading{
+background-color:#05326b;
+margin:-6px;
+}
+#head-buttons{
+	position:absolute;
+	top:10px;
+	left:1200px;
+}
+#nav{
+	position:absolute;
+	top:16%;
+	left:13%;
+	right:0%;
+}
+.nav{
+	color:white;
+	text-decoration:none;
+	font-weight:bolder;
+	font-family:Roboto, sans-serif;
+	padding:5%;
+}
+.nav:hover{
+	color:orange;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  left:2%;
+}
+.dropdown-content {
+	text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*For Events Dropdown*/
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  left:9%
+}
+.dropdown-content1 {
+	text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+/*For Exams DropDown*/
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+  left:16%
+}
+.dropdown-content2 {
+	text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+/*For Project Dropdown*/
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+  left:23%
+}
+.dropdown-content3 {
+	text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown3:hover .dropdown-content3{
+  display: block;
+}
+
+/*For Game Dropdown*/
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+  left:30%
+}
+.dropdown-content4 {
+	text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown4:hover .dropdown-content4{
+  display: block;
+}
+/*For Buisness Dropdown*/
+.dropdown5 {
+  position: relative;
+  display: inline-block;
+  left:37%
+}
+.dropdown-content5 {
+	text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown5:hover .dropdown-content5{
+  display: block;
+}
+.nav1{
+	color:blue;
+	text-decoration:none;
+	font-weight:bolder;
+	font-family:Roboto, sans-serif;
+}
+.nav1:hover{
+color:silver;
+}
+
+
+#body_end{
+	font-family:Roboto, sans-serif;
+	font-weight:100;
+	background-color:#141415;
+	color:#f8f8f8;
+	margin:-6px;
+}
+#foot1{
+	margin:1%;
+	padding:1%
+}
+#foot2{
+	position:absolute;
+	top:1000px;
+	left:600px;
+}
+#foot3{
+	position:absolute;
+	top:1000px;
+	left:800px;
+}
+#foot4{
+	position:absolute;
+	top:1000px;
+	left:1000px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+#hr_line{
+	position:relative;
+	top:-10px;
+}
+
+#harsh_ql{
+	font-size:20px;
+}
+
+.nav2{
+	color:white;
+	text-decoration:none;
+	font-family:Roboto, sans-serif;
+}
+.nav2:hover{
+	color:yellow;
+}
+i {
+  border: solid yellow;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+#ag_head{
+	font-size:200%;
+	font-weight:800;
+	font-family:Roboto, sans-serif;
+}
+.ag_but1{
+	background-color:white;
+	border:0px solid white;
+	border-left:2px solid #2962ff;
+	border-right:2px solid #2962ff;
+	border-top:2px solid #2962ff;
+	margin:5px;
+	font-size:20px;
+	padding:5px;
+	border-radius:10%;
+	color:#2962ff;
+}
+#ag_but1{
+	background-color:#2962ff;
+	color:white;
+}
+#c_tech{
+	font-size:18px;
+	font-family:verdana;
+}
+#ag_game1{
+	font-size:18px;
+	font-family:verdana;
+	padding:60px;
+}
+#gotogz{
+	text-align:center;
+}
+#but{
+	color:white;
+	background-color:#2962ff;
+	padding:10px;
+	border:3px solid #2962ff;
+	text-decoration:none;
+}
