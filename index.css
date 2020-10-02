@@ -1,0 +1,368 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black; 
+}
+::-webkit-scrollbar-thumb {
+  background: silver;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: silver; 
+}
+
+body{
+	overflow-x:hidden;
+}
+#head-buttons{
+	position:absolute;
+	top:10px;
+	left:1200px;
+}
+#head-but1{
+	background-color:white;
+	border:2px solid white;	
+}
+#head-but1:hover{
+	background-color:black;
+	border:2px solid black;
+	color:white;	
+}
+#head-but2{
+	background-color:white;
+	border:2px solid white;	
+}
+#head-but2:hover{
+	background-color:black;
+	border:2px solid black;
+	color:white;	
+}
+#heading{
+background-color:#05326b;
+margin:-6px;
+}
+#gdlogo{
+margin:-3%;	
+}
+#body_end{
+	font-family:Roboto, sans-serif;
+	font-weight:100;
+	background-color:#141415;
+	color:#f8f8f8;
+	margin:-6px;
+}
+#foot1{
+	margin:1%;
+	padding:1%
+}
+#foot2{
+	position:absolute;
+	top:1970px;
+	left:600px;
+}
+#foot3{
+	position:absolute;
+	top:1970px;
+	left:800px;
+}
+#foot4{
+	position:absolute;
+	top:1970px;
+	left:1000px;
+}
+
+#harsh_ql{
+	font-size:20px;
+}
+i {
+  border: solid yellow;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+#hr_line{
+	position:relative;
+	top:-10px;
+}
+.nav{
+	color:white;
+	text-decoration:none;
+	font-weight:bolder;
+	font-family:Roboto, sans-serif;
+	padding:5%;
+}
+.nav:hover{
+	color:orange;
+}
+.nav2{
+	color:white;
+	text-decoration:none;
+	font-family:Roboto, sans-serif;
+}
+.nav2:hover{
+	color:yellow;
+}
+
+.nav1{
+	color:blue;
+	text-decoration:none;
+	font-weight:bolder;
+	font-family:Roboto, sans-serif;
+}
+.nav1:hover{
+color:silver;
+}
+#nav{
+	position:absolute;
+	top:16%;
+	left:13%;
+	right:0%;
+}
+#whiteme{
+	background-color:white;
+	margin-top:20%;
+}
+/*For courses dropdown*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+  left:2%;
+}
+.dropdown-content {
+	text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*For Events Dropdown*/
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  left:9%
+}
+.dropdown-content1 {
+	text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+/*For Exams DropDown*/
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+  left:16%
+}
+.dropdown-content2 {
+	text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+/*For Project Dropdown*/
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+  left:23%
+}
+.dropdown-content3 {
+	text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown3:hover .dropdown-content3{
+  display: block;
+}
+
+/*For Game Dropdown*/
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+  left:30%
+}
+.dropdown-content4 {
+	text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown4:hover .dropdown-content4{
+  display: block;
+}
+/*For Buisness Dropdown*/
+.dropdown5 {
+  position: relative;
+  display: inline-block;
+  left:37%
+}
+.dropdown-content5 {
+	text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  padding: 12px 16px;
+  z-index: 2;
+}
+.dropdown5:hover .dropdown-content5{
+  display: block;
+}
+#leftbut:hover{
+	background-image:linear-gradient(to left,white,silver);
+}
+#leftbut{
+	position:absolute;
+	left:30px;
+	width:50px;
+	height:400px;
+	background-color:white;
+	border:2px solid white;
+	font-size:30px;
+	font-weight:bold;
+}
+#rightbut{
+	position:absolute;
+	left:1270px;
+	width:50px;
+	height:400px;
+	background-color:white;
+	border:2px solid white;
+	font-size:30px;
+	font-weight:bold;	
+}
+#rightbut:hover{
+	background-image:linear-gradient(to right,white,silver);
+}
+.img1{
+	margin-left:100px;
+}
+#numbers{
+text-align:center;
+position:absolute;
+top:780px;
+font-size:20px;
+font-family:courier new;
+text-align:center;	
+font-weight:bold;
+}
+#sat-id{
+	margin-left:550px;
+}
+#instanum{
+	position:absolute;
+	left:200px;
+}
+#projectnum{
+	position:relative;
+	left:300px;
+}
+#devenum{
+	position:relative;
+	top:-50px;
+	left:700px;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: silver;
+  border-radius: 50%;
+  display: inline-block;
+}
+#dot1{
+background-color: grey;	
+}
+#all-dot{
+	margin-left:600px;
+}
+#harshstat{
+	font-size:30px;	
+}
+#harshtestimonial{
+border:2px solid black;
+border-radius:10px;
+display:inline-block;
+font-family:cursive;
+color:white;
+background-image : url("image/background/backfortesti.jpg");
+}
+#all-testimonials{
+position:relative;
+animation-name:gogoup;
+animation-duration:2s;
+}
+@keyframes gogoup {
+  0%   {left:-800px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+#testiname{
+	text-align:center;
+	margin:25px;
+	font-size:20px;
+	font-weight:bold;
+}
+#testicontent{
+	text-align:center;
+	margin:5%;
+	font-size:16px;
+	font-weight:100;
+}
+#harshtesthead{
+	font-size:30px;
+	font-weight:900;
+}
+#harshtest{
+	text-align:center;
+	font-family:cursive;
+}
+#harshblog{
+	text-align:center;
+}
+#bloghead{
+	font-weight:900;
+	font-size:30px;
+}
+#but-blog{
+	background-color:#0d47a1;
+	border:2px solid #0d47a1;
+	color:black;
+	padding:10px;
+	font-weight:900;
+}
